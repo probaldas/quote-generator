@@ -16,7 +16,7 @@ Ability to share the quote on twitter.
 ## Git Commands
 ```bash
 git init
-git remote add origin 
+git remote add origin https://github.com/probaldas/quote-generator.git
 git add .
 git commit -m 'a random quote generator'
 git push origin master
