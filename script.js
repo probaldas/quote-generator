@@ -1,5 +1,6 @@
 const quoteContainer = document.getElementById('quote-container');
 const quoteText = document.getElementById('quote');
+const hashTagText = document.getElementById('hash-tag');
 const authorText = document.getElementById('author');
 const twitterBtn = document.getElementById('twitter');
 const newQuoteBtn = document.getElementById('new-quote');
@@ -26,6 +27,7 @@ function newQuote() {
     }
 
     quoteText.textContent = quote.text;
+    hashTagText.textContent = quote.tag;
 }
 
 // Get Quotes From API

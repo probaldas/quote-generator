@@ -4,6 +4,9 @@
 A web page for random quotes.
 Ability to share the quote on twitter.
 
+## GitHub Pages Link
+https://probaldas.github.io/quote-generator/
+
 ## Useful Resources used in this Project
 - [Fontawesome](https://fontawesome.com/search?o=r&m=free)
 - [cdnjs - fontawesome](https://cdnjs.com/libraries/font-awesome)
@@ -21,4 +24,3 @@ git add .
 git commit -m 'a random quote generator'
 git push origin master
 ```
-
