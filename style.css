@@ -87,6 +87,7 @@ body {
 .quote-author {
     font-family: Belanosima, sans-serif;
     font-size: 1.8rem;
+    padding-bottom: 15px;
 }
 
 .button-container {
@@ -109,7 +110,7 @@ body {
 }
 
 .twitter-button:hover {
-    color: #38a1f3;
+    color: #fff;
 }
 
 .fa-twitter {
@@ -118,12 +119,17 @@ body {
 
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
-    .quote-container {
-        margin: auto 15px;
+    .quote-text {
+        font-size: 2rem;
+        line-height: 3.5rem;
+    }
+    
+    .long-quote {
+        font-size: 1.5rem;
+        line-height: 0.1rem;
     }
 
-    .quote-text {
-        font-size: 2.5rem;
-        line-height: 3.5rem;
+    .quote-author {
+        font-size: 1.3rem;
     }
 }
